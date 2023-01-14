@@ -103,13 +103,13 @@ ul li {
 
 .qucik-list-details {
     margin-left: 70px;
+    margin-right: 300px;
 }
 
 .quick-list {
     display: flex;
     align-items: center;
     margin-left: 300px;
-    margin-right: 300px;
     justify-content: center;
     margin-top: 85px;
     margin-bottom: 130px;
@@ -168,11 +168,13 @@ h1 .h-3 {
     font-size: 20px;
     color: #131313;
 }
-.features-details-section p{
+
+.features-details-section p {
     font-size: 16px;
     color: #727272;
 }
-.features{
+
+.features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 300px;
@@ -181,6 +183,27 @@ h1 .h-3 {
     justify-content: center;
     align-items: center;
 }
-.features-img-section{
-   
+
+.btn-secondary {
+    position: relative;
+    top: -100px;
+    left: 700px;
+    background: #FF900E;
+    border-radius: 8px;
+    width: 300px;
+    height: 100px;
+    color: #FFFFFF;
+    border-color: transparent;
+    
+}
+
+.btn-ss {
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.btn-secondary p {
+    
+    font-weight: 500;
+    font-size: 25px;
 }
