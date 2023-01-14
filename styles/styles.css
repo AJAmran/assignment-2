@@ -1,0 +1,12 @@
+:root{
+    --font-family:font-family: 'Work Sans', sans-serif;
+    --light-pink: #e9ddcf;
+    --pink:#FF900E;
+    --white:#FFFFFF;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
