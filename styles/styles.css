@@ -1,12 +1,182 @@
-:root{
-    --font-family:font-family: 'Work Sans', sans-serif;
+:root {
+    ---font-family: 'Work Sans', sans-serif;
     --light-pink: #e9ddcf;
-    --pink:#FF900E;
-    --white:#FFFFFF;
+    --pink: #FF900E;
+    --white: #FFFFFF;
+    --black: #131313;
 
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(---font-family);
+    text-decoration: none;
+    list-style: none;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn-primary {
+    background-color: var(--pink);
+    color: var(--white);
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: transparent;
+}
+/*-----------------
+ header section 
+ -----------------*/
+nav {
+    background-color: var(--light-pink);
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 120px;
+}
+
+.menu-section ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--black);
+}
+
+ul li {
+    font-weight: 600;
+    font-size: 20px;
+    color: #424242;
+}
+
+.header-deteils {
+    text-align: center;
+    margin: auto;
+    width: 65%;
+}
+
+.header-deteils h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.header-deteils p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.header-deteils button {
+    margin-bottom: 50px;
+}
+
+.nav-img {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+/*--------------------------
+ Quick list of Our Features 
+ --------------------------*/
+.quick-list-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+}
+
+.qucik-list-details {
+    margin-left: 70px;
+}
+
+.quick-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+
+h1 .h-1 {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+h1 .h-2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+h1 .h-3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.qucik-list-details p {
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+
+/* Feature */
+
+.features-details-section-border {
+    margin-bottom: 24px;
+}
+
+.features-details-section-border h1 {
+    border-left: 5px solid #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+
+}
+
+.features-details-section-border p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.features-details-section {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.features-details-section h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.features-details-section p{
+    font-size: 16px;
+    color: #727272;
+}
+.features{
+    display: flex;
+    gap: 100px;
+    justify-items: center;
+    align-items: center;
 }
