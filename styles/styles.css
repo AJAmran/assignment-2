@@ -214,13 +214,13 @@ h1 .h-3 {
     margin-left: 240px;
     margin-right: 240px;
 }
-.fact-details h1 {
+.fact-details h1, .sponsers h1{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
 }
 
-.fact-details p {
+.fact-details p, .sponsers p{
     color: #727272;
 }
 
@@ -253,4 +253,29 @@ i {
     margin-top: 100px;
     align-items: center;
     justify-content: center;
+    transition: 0.6s;
+}
+.fact-box :hover{
+    background-color: #e7d8d8;
+}
+/* sponspors */
+.sponsers{
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+.popular-site{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+/* footer */
+.footer{
+    background-color:#FFF4E7;
+    text-align: center;
+    height: 100px;
+    padding: 38px 0;
+    color: #424242;
 }
