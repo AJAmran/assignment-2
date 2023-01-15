@@ -33,7 +33,6 @@
 nav {
     background-color: var(--light-pink);
     width: 100%;
-    max-width: 1920px;
     padding: 0 120px;
 }
 
@@ -108,6 +107,7 @@ ul li {
 
 .quick-list {
     display: flex;
+    justify-items: center;
     align-items: center;
     margin-left: 300px;
     justify-content: center;
@@ -194,7 +194,7 @@ h1 .h-3 {
     height: 100px;
     color: #FFFFFF;
     border-color: transparent;
-    
+
 }
 
 .btn-ss {
@@ -203,7 +203,54 @@ h1 .h-3 {
 }
 
 .btn-secondary p {
-    
+
     font-weight: 500;
     font-size: 25px;
+}
+
+/* some fact */
+
+.some-facts{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.fact-details h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fact-details p {
+    color: #727272;
+}
+
+.fact-box-container {
+    text-align: center;
+    border: 1px solid #FF900E;
+    height: 240px;
+    width: 240px;
+    padding: 45px 36px 55px 35px;
+
+}
+
+.fact-box-container h1,
+i {
+    font-size: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+
+.fact-box-container p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-bottom: 5px;
+}
+.fact-box{
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
 }
