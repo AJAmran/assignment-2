@@ -214,7 +214,7 @@ h1 .h-3 {
     margin-left: 240px;
     margin-right: 240px;
 }
-.fact-details h1, .sponsers h1{
+.fact-details h1, .sponsers h1, .serice-title h1{
     font-weight: 700;
     font-size: 45px;
     color: #131313;
@@ -271,7 +271,47 @@ i {
     justify-content: center;
     margin-bottom: 130px;
 }
+/* survices */
+.service{
+    text-align: center;
+    border: 1px solid #FF900E;
+    height: 340px;
+    width: 300px;
+    padding: 30px 30px;
+}
+.service h1{
+    margin-bottom: 15px;
+}
+.services{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.serice-title h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    height: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+}
+.btn i{
+    color: #FFFFFF;
+}
 /* footer */
+
 .footer{
     background-color:#FFF4E7;
     text-align: center;
