@@ -331,6 +331,10 @@ i {
     .logo h1{
         margin-bottom: 25px;
     }
+    .header-deteils h1{
+        margin-right: 100px;
+        font-size: 40px;
+    }
     .menu-section ul, .header{
         flex-direction: column;
     }
@@ -345,6 +349,7 @@ i {
     .qucik-list-details{
         margin: 0;
     }
+    
     .features {
         display: flex;
         flex-direction: column;
@@ -356,9 +361,11 @@ i {
     .some-facts{
         margin: 50px;
     }
+
     .btn-secondary {
         top: 5px;
-        left: 100px
+        left: 5px;
+        margin-left: 50px;
     }
     .fact-box{
         flex-direction: column;
