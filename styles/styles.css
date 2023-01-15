@@ -14,8 +14,11 @@
     font-family: var(---font-family);
     text-decoration: none;
     list-style: none;
-}
 
+}
+a{
+    color: #424242;
+}
 .btn-primary {
     background-color: var(--pink);
     color: var(--white);
@@ -364,8 +367,8 @@ i {
 
     .btn-secondary {
         top: 5px;
-        left: 5px;
-        margin-left: 50px;
+        left: 0.1px;
+        margin-left: 40px;
     }
     .fact-box{
         flex-direction: column;
@@ -378,12 +381,13 @@ i {
     .popular-site{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
+        gap: 10px;
         align-items: center;
+        align-content: space-evenly;
         justify-content: center;
         justify-items: center;
         margin-bottom: 130px;
-        padding: 40px;
+        padding: 50px;
     }
     .pp-sp{
         grid-column: span 2;
